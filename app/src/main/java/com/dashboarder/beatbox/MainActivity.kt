@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             adapter = SoundAdapter(beatBoxViewModel.beatBox.sounds)
         }
     }
-    
+
     private inner class SoundHolder(private val binding: ListItemSoundBinding) :
         RecyclerView.ViewHolder(binding.root) {
             init {
